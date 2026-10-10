@@ -1,0 +1,7 @@
+# 换行: 源码与文档统一 LF; Windows 批处理不做转换(仓库里就存 CRLF),
+# 这样即使从 GitHub 直接下载 ZIP, run.bat 也还是 CRLF、双击就能用
+* text=auto eol=lf
+*.bat -text
+*.png binary
+*.jpg binary
+*.ico binary

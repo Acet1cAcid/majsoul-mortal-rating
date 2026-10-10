@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 程序输出（含真实对局数据 / 浏览器配置 / 缓存）
+rating_out/
+*.browser_profile/
+results.json
+rating_*.png
+rating_*.csv
+summary_*.txt
+
+# 本次会话的助手工作目录（含对话记录与截图，切勿上传）
+.reasonix/
+reasonix.toml
+
+# 临时文件
+.scratch/
+*.utf8
+*.tmp
